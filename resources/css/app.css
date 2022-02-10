@@ -1,0 +1,35 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+header ul li {
+    @apply px-4;
+}
+header ul li a.links {
+    @apply text-xl font-medium text-gray-700;
+}
+header ul li a.links:hover,
+header ul li a.links.active,
+a.links.active {
+    @apply text-red-700;
+}
+/* header ul li a.links:hover {
+    @apply border-b border-red-800;
+} */
+
+/* header sticky */
+header.sticky2 {
+    @apply px-8 py-4 bg-white shadow-lg lg:px-24 lg:py-4;
+}
+header.sticky2 ul li a.links {
+    @apply text-base;
+}
+
+/* mobile-menu */
+.mobile-menu ul li {
+    @apply w-full py-2 text-center text-gray-600 border-b border-gray-200 hover:text-red-700;
+}
+.mobile-menu ul li a.active {
+    @apply text-red-700;
+}
