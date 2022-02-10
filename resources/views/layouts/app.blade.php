@@ -42,11 +42,21 @@
         class="fixed top-0 left-0 z-10 flex flex-row items-center justify-between w-full px-8 py-4 mb-12 transition-all duration-300 ease-in-out lg:py-12">
         <h2 class="text-xl font-bold text-gray-800 lg:text-3xl">OSP Robakowo<span class="text-red-700">.</span></h2>
         <ul class="flex-row flex-wrap justify-end flex-grow hidden list-none lg:flex navigation">
+            @if(config('set.visibleSection.home'))
             <li><a href="{{route('home')}}/#home" class="links">Home</a></li>
+            @endif
+            @if(config('set.visibleSection.news'))
             <li><a href="{{route('home')}}/#news" class="links">Aktualności</a></li>
+            @endif
+            @if(config('set.visibleSection.stations'))
             <li><a href="{{route('home')}}/#stations" class="links">Remiza</a></li>
+            @endif
+            @if(config('set.visibleSection.gallery'))
             <li><a href="{{route('home')}}/#gallery" class="links">Galeria</a></li>
+            @endif
+            @if(config('set.visibleSection.teams'))
             <li><a href="{{route('home')}}/#teams" class="links">Zarząd OSP</a></li>
+            @endif
         </ul>
         <div class="cursor-pointer lg:hidden" @click="openMobile = true">
             <x-heroicon-o-menu class="w-6 h-6" />
@@ -68,11 +78,21 @@
                 <x-heroicon-o-x class="w-8 h-8 cursor-pointer hover:text-red-700" @click="openMobile = false" />
             </div>
             <ul class="flex flex-col items-center justify-start w-full h-full mt-24 text-xl">
+                @if(config('set.visibleSection.home'))
                 <li><a href="{{route('home')}}/#home" class="m-links" @click="openMobile = false">Home</a></li>
+                @endif
+                @if(config('set.visibleSection.news'))
                 <li><a href="{{route('home')}}/#news" class="m-links" @click="openMobile = false">Aktualności</a></li>
+                @endif
+                @if(config('set.visibleSection.stations'))
                 <li><a href="{{route('home')}}/#stations" class="m-links" @click="openMobile = false">Remiza</a></li>
+                @endif
+                @if(config('set.visibleSection.gallery'))
                 <li><a href="{{route('home')}}/#gallery" class="m-links" @click="openMobile = false">Galeria</a></li>
+                @endif
+                @if(config('set.visibleSection.teams'))
                 <li><a href="{{route('home')}}/#teams" class="m-links" @click="openMobile = false">Zarząd OSP</a></li>
+                @endif
             </ul>
         </div>
     </div>

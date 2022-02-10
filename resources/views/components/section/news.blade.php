@@ -23,47 +23,50 @@
                 </div>
 
                 <div class="grid gap-8 row-gap-8 sm:grid-cols-2">
-                    <div>
-                        <div class="flex items-center justify-between">
-                            <h2 class="mb-2 font-semibold leading-5">
-                                Festyn rodzinny
-                            </h2>
-                            <span class="text-xs font-medium text-gray-500">05.12.2021r.</span>
-                        </div>
-                        <p class="text-sm text-gray-900 lg:min-h-20">
-                            Dingy I'm tellin' you rhubaahb Bangah Jo-Jeezly got in a
-                            gaum Powrtland stove up dooryahd
-                        </p>
-                        <a href="/" aria-label=""
-                            class="inline-flex items-center mt-2 text-base font-semibold transition-colors duration-200 text-red-accent-400 hover:text-red-accent-700">
-                            Zobacz więcej
-                            <x-heroicon-o-chevron-right class="h-4 ml-2" />
-                        </a>
-                    </div>
-
-                    <div>
-                        <div class="flex items-center justify-between">
-                            <h2 class="mb-2 font-semibold leading-5">
-                                Rekrutacja
-                            </h2>
-                            <span class="text-xs font-medium text-gray-500">30.11.2021r.</span>
+                    <h2>Brak aktualności.</h2>
+                    <div class="hidden">
+                        <div>
+                            <div class="flex items-center justify-between">
+                                <h2 class="mb-2 font-semibold leading-5">
+                                    Festyn rodzinny
+                                </h2>
+                                <span class="text-xs font-medium text-gray-500">05.12.2021r.</span>
+                            </div>
+                            <p class="text-sm text-gray-900 lg:min-h-20">
+                                Dingy I'm tellin' you rhubaahb Bangah Jo-Jeezly got in a
+                                gaum Powrtland stove up dooryahd
+                            </p>
+                            <a href="/" aria-label=""
+                                class="inline-flex items-center mt-2 text-base font-semibold transition-colors duration-200 text-red-accent-400 hover:text-red-accent-700">
+                                Zobacz więcej
+                                <x-heroicon-o-chevron-right class="h-4 ml-2" />
+                            </a>
                         </div>
 
-                        <p class="text-sm text-gray-900 lg:min-h-20">
-                            A slice of heaven. O for awesome, this chocka full cuzzie is
-                            as rip-off as a cracker.
-                        </p>
-                        <a href="/" aria-label=""
-                            class="inline-flex items-center mt-2 text-base font-semibold transition-colors duration-200 text-red-accent-400 hover:text-red-accent-700">
-                            Zobacz więcej
-                            <x-heroicon-o-chevron-right class="h-4 ml-2" />
-                        </a>
+                        <div>
+                            <div class="flex items-center justify-between">
+                                <h2 class="mb-2 font-semibold leading-5">
+                                    Rekrutacja
+                                </h2>
+                                <span class="text-xs font-medium text-gray-500">30.11.2021r.</span>
+                            </div>
+
+                            <p class="text-sm text-gray-900 lg:min-h-20">
+                                A slice of heaven. O for awesome, this chocka full cuzzie is
+                                as rip-off as a cracker.
+                            </p>
+                            <a href="/" aria-label=""
+                                class="inline-flex items-center mt-2 text-base font-semibold transition-colors duration-200 text-red-accent-400 hover:text-red-accent-700">
+                                Zobacz więcej
+                                <x-heroicon-o-chevron-right class="h-4 ml-2" />
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
             <div>
-                <img class="object-cover w-full h-56 rounded shadow-lg sm:h-96" src="{{Storage::url('img/bg11.jpg')}}"
-                    alt="" />
+                <img class="object-cover w-full h-56 rounded shadow-lg sm:h-96"
+                    src="{{Storage::url('img/bg11_50.jpg')}}" alt="" />
             </div>
         </div>
     </div>

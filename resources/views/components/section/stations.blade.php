@@ -27,14 +27,13 @@
                     </div>
 
                     <p class="text-base text-gray-700 md:text-lg">
-                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                        accusantium doloremque laudantium, totam rem aperiam, eaque
-                        ipsa quae. explicabo.
+                        Po więcej szczegółów dotyczących budowy Naszej nowej remizy zapraszamy już wkrótce.
                     </p>
                 </div>
                 <div>
                     <a href="/" aria-label=""
-                        class="inline-flex items-center font-semibold transition-colors duration-200 text-red-accent-400 hover:text-red-accent-700">
+                        class="inline-flex items-center font-semibold transition-colors duration-200 cursor-not-allowed text-red-accent-400 hover:text-red-accent-700"
+                        onclick="return false;">
                         Zobacz więcej
                         <svg class="inline-block w-3 ml-2" fill="currentColor" viewBox="0 0 12 12">
                             <path
@@ -47,13 +46,13 @@
             <div class="flex items-center justify-center -mx-4 lg:pl-8 lg:order-1">
                 <div class="flex flex-col items-end px-3">
                     <img class="object-cover mb-6 rounded shadow-lg h-28 sm:h-48 xl:h-56 w-28 sm:w-48 xl:w-56"
-                        src="{{Storage::url('img/station_1.jpg')}}" alt="" />
+                        src="{{Storage::url('img/station_1_50.jpg')}}" alt="" />
                     <img class="object-cover w-20 h-20 rounded shadow-lg sm:h-32 xl:h-40 sm:w-32 xl:w-40"
-                        src="{{Storage::url('img/station_4.jpg')}}" alt="" />
+                        src="{{Storage::url('img/station_4_50.jpg')}}" alt="" />
                 </div>
                 <div class="px-3">
                     <img class="object-cover w-40 h-40 rounded shadow-lg sm:h-64 xl:h-80 sm:w-64 xl:w-80"
-                        src="{{Storage::url('img/station_2.jpg')}}" alt="" />
+                        src="{{Storage::url('img/station_2_50.jpg')}}" alt="" />
                 </div>
             </div>
         </div>
