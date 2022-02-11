@@ -88,7 +88,7 @@
             <p class="text-sm text-gray-600">© OSP Robakowo 2022r.</p>
             <ul class="flex flex-col mb-3 space-y-2 lg:mb-0 sm:space-y-0 sm:space-x-5 sm:flex-row">
                 <li>
-                    <a href="/"
+                    <a href="{{ route('faq', []) }}"
                         class="text-sm text-gray-600 transition-colors duration-300 hover:text-red-accent-400">Pytania
                         i
                         odpowiedzi</a>
@@ -99,7 +99,7 @@
                         prywatności</a>
                 </li>
                 <li>
-                    <a href="/"
+                    <a href="{{ route('statut', []) }}"
                         class="text-sm text-gray-600 transition-colors duration-300 hover:text-red-accent-400">Statut
                         Organizacji</a>
                 </li>

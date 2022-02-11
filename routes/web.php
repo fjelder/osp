@@ -21,6 +21,14 @@ Route::get('/news', function () {
     return view('news');
 })->name('news');
 
+Route::get('/faq', function () {
+    return view('pages/faq');
+})->name('faq');
+
+Route::get('/statut', function () {
+    return view('pages/statut');
+})->name('statut');
+
 
 // Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
 //     return view('dashboard');

@@ -39,11 +39,11 @@
 
 <body class="font-sans antialiased" x-data="{openMobile: false}" :class="openMobile ? 'overflow-y-hidden' : ''">
     <header
-        class="fixed top-0 left-0 z-10 flex flex-row items-center justify-between w-full px-8 py-4 mb-12 transition-all duration-300 ease-in-out lg:py-12">
+        class=" flex flex-row items-center justify-between w-full px-8 py-4 transition-all duration-300 ease-in-out lg:py-12 {{ Route::is('home') ? 'fixed top-0 left-0 z-10 mb-12' : '' }}">
         <h2 class="text-xl font-bold text-gray-800 lg:text-3xl">OSP Robakowo<span class="text-red-700">.</span></h2>
         <ul class="flex-row flex-wrap justify-end flex-grow hidden list-none lg:flex navigation">
             @if(config('set.visibleSection.home'))
-            <li><a href="{{route('home')}}/#home" class="links">Home</a></li>
+            <li><a href="{{route('home')}}/#home" class="links">Strona główna</a></li>
             @endif
             @if(config('set.visibleSection.news'))
             <li><a href="{{route('home')}}/#news" class="links">Aktualności</a></li>
@@ -79,7 +79,7 @@
             </div>
             <ul class="flex flex-col items-center justify-start w-full h-full mt-24 text-xl">
                 @if(config('set.visibleSection.home'))
-                <li><a href="{{route('home')}}/#home" class="m-links" @click="openMobile = false">Home</a></li>
+                <li><a href="{{route('home')}}/#home" class="m-links" @click="openMobile = false">Strona główna</a></li>
                 @endif
                 @if(config('set.visibleSection.news'))
                 <li><a href="{{route('home')}}/#news" class="m-links" @click="openMobile = false">Aktualności</a></li>
@@ -100,6 +100,7 @@
 
     {{$slot}}
 
+    <x-section.footer />
 
     @stack('modals')
 

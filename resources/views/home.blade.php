@@ -4,5 +4,5 @@
     <x-section.stations />
     <x-section.partners />
     <x-section.gallery />
-    <x-section.footer />
+
 </x-app-layout>
