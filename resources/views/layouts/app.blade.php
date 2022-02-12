@@ -107,12 +107,8 @@
     @livewireScripts
 
 
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
     <script>
-        AOS.init({
-            duration: 1000,
-            easing: 'ease-in-out',
-        });
 
         const li = document.querySelectorAll(".links");
         const lim = document.querySelectorAll(".m-links");
