@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\FaqController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -21,10 +21,6 @@ Route::get('/news', function () {
     return view('news');
 })->name('news');
 
-Route::get('/faq', function () {
-    return view('pages/faq');
-})->name('faq');
-
 Route::get('/statut', function () {
     return view('pages/statut');
 })->name('statut');
@@ -33,3 +29,8 @@ Route::get('/statut', function () {
 // Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
 //     return view('dashboard');
 // })->name('dashboard');
+
+Route::get('/faqList', [FaqController::class, 'list'])->name('faq.list');
+Route::resources([
+    'faq' => FaqController::class,
+]);
