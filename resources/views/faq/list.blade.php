@@ -1,4 +1,4 @@
-<x-app-layout>
+<x-admin-layout>
     <h2>Lista pytań i odpowiedzi</h2>
     <table class="border table-auto">
         <tr>
@@ -18,4 +18,4 @@
         </tr>
         @endforeach
     </table>
-</x-app-layout>
+</x-admin-layout>

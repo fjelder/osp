@@ -14,7 +14,8 @@ class FaqController extends Controller
      */
     public function index()
     {
-        return view('pages/faq');
+        $faqs = faq::all();
+        return view('pages/faq', ['faqs' => $faqs]);
     }
 
     /**

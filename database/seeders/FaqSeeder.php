@@ -14,7 +14,7 @@ class FaqSeeder extends Seeder
      */
     public function run()
     {
-        for ($i=0; $i < 10; $i++) { 
+        for ($i=0; $i < 25; $i++) { 
             DB::table('faqs')->insert([
                 'question' => 'Pytanie nr '.($i+1),
                 'answear' => 'Odpowiedź nr '.($i+1),
