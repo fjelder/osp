@@ -1,17 +1,15 @@
+const colors = require("tailwindcss/colors");
 const defaultTheme = require("tailwindcss/defaultTheme");
 
 module.exports = {
-    mode: "jit",
-    purge: {
-        enabled: false,
-        content: [
-            "./vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php",
-            "./vendor/laravel/jetstream/**/*.blade.php",
-            "./storage/framework/views/*.php",
-            "./resources/views/**/*.blade.php",
-        ],
-    },
-
+    enabled: false,
+    content: [
+        "./vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php",
+        "./vendor/laravel/jetstream/**/*.blade.php",
+        "./storage/framework/views/*.php",
+        "./resources/views/**/*.blade.php",
+    ],
+    safelist: process.env.NODE_ENV === "development" ? [{ pattern: /.*/ }] : [],
     theme: {
         extend: {
             fontFamily: {

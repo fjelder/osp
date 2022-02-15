@@ -30,7 +30,9 @@ Route::get('/statut', function () {
 //     return view('dashboard');
 // })->name('dashboard');
 
-Route::get('/faqList', [FaqController::class, 'list'])->name('faq.list');
+Route::get('/admin', function (){
+    return view('pages.admin');
+})->name('admin')->middleware(['auth:sanctum', 'verified']);
 Route::resources([
     'faq' => FaqController::class,
 ]);

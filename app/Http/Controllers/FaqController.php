@@ -83,10 +83,4 @@ class FaqController extends Controller
     {
         //
     }
-
-    public function list()
-    {
-        $faqs = faq::all();
-        return view('faq/list', ['faqs' => $faqs]);
-    }
 }

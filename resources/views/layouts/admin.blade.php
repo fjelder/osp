@@ -25,12 +25,19 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@1.16.2/dist/themes.css" rel="stylesheet" type="text/css" />
 </head>
 
-<body class="relative pt-10 mx-auto font-sans text-sm max-w-7xl">
+<body class="flex flex-col min-h-screen text-gray-200 bg-slate-800 border-red-accent-700">
 
 
-    <a href="{{route('home')}}" target="_blank" class="absolute top-0 left-0 font-semibold text-blue-500">Home</a>
 
-    {{$slot}}
+
+
+    <div class="border-b-2 border-red-accent-700">
+        @livewire('navigation-menu')
+    </div>
+
+    <div class="flex-1 px-4 py-6 mx-auto max-w-7xl ">
+        {{$slot}}
+    </div>
 
 
     @stack('modals')
