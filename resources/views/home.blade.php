@@ -2,6 +2,7 @@
     <x-section.home />
     <x-section.news />
     <x-section.stations />
+    <x-section.teams />
     <x-section.partners />
     <x-section.gallery />
 

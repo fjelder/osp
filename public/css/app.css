@@ -41002,10 +41002,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     padding-right: 0px;
   }.lg\:pr-5{
     padding-right: 1.25rem;
-  }.lg\:pl-8{
-    padding-left: 2rem;
   }.lg\:pb-64{
     padding-bottom: 16rem;
+  }.lg\:pl-8{
+    padding-left: 2rem;
   }.lg\:text-sm{
     font-size: 0.875rem;
     line-height: 1.25rem;

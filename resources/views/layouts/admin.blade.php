@@ -23,6 +23,8 @@
 
 
     <link href="https://cdn.jsdelivr.net/npm/daisyui@1.16.2/dist/themes.css" rel="stylesheet" type="text/css" />
+
+    <script src="//cdn.ckeditor.com/4.14.1/standard/ckeditor.js"></script>
 </head>
 
 <body class="flex flex-col min-h-screen text-gray-200 bg-slate-800 border-red-accent-700">
@@ -37,6 +39,7 @@
 
     <div class="flex-1 px-4 py-6 mx-auto max-w-7xl ">
         {{$slot}}
+        <textarea class="ckeditor form-control" name="wysiwyg-editor"></textarea>
     </div>
 
 

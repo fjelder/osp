@@ -109,7 +109,6 @@
 
 
     <script>
-
         const li = document.querySelectorAll(".links");
         const lim = document.querySelectorAll(".m-links");
         const sec = document.querySelectorAll("section");
