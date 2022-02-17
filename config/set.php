@@ -6,7 +6,7 @@ return [
         'stations' => true,
         'teams' => true,
         'partners' => true,
-        'gallery' => false,
+        'gallery' => true,
         'footer' => true,
     ]
 ];
