@@ -24,7 +24,7 @@
                 <div class="flex">
                     <p class="mr-1 text-gray-800">Telefon:</p>
                     <a href="tel:850-123-5021" aria-label="" title=""
-                        class="text-red-400 transition-colors duration-300 hover:text-red-800">850-123-5021</a>
+                        class="text-red-400 transition-colors duration-300 hover:text-red-800">+48 698 542 156</a>
                 </div>
                 <div class="flex">
                     <p class="mr-1 text-gray-800">Email:</p>
@@ -33,10 +33,10 @@
                 </div>
                 <div class="flex flex-col">
                     <p class="mr-1 text-gray-800">Tymczasowy adres:</p>
-                    <a href="https://goo.gl/maps/73aeekuEcjwG5gFJ8" target="_blank" rel="noopener noreferrer"
+                    <a href="https://goo.gl/maps/WXKLSCLZqF3Gmqdd7" target="_blank" rel="noopener noreferrer"
                         aria-label="" title=""
                         class="transition-colors duration-300 text-red-accent-400 hover:text-red-800">
-                        ul. Wiejska 15, Robakowo, 62-023 Gądki
+                        ul. Wiejska 9, 62-023 Robakowo
                     </a>
                 </div>
 
@@ -47,15 +47,15 @@
                     <div class="text-sm uppercase">
                         <div class="flex">
                             <p class="mr-1 text-gray-800">Nip:</p>
-                            <p class="text-red-400 transition-colors duration-300 hover:text-red-800">777-100-22-44</p>
+                            <p class="text-red-400 transition-colors duration-300 hover:text-red-800">777 336 79 53</p>
                         </div>
                         <div class="flex">
                             <p class="mr-1 text-gray-800">Regon:</p>
-                            <p class="text-red-400 transition-colors duration-300 hover:text-red-800">159 753 986</p>
+                            <p class="text-red-400 transition-colors duration-300 hover:text-red-800">300 951 750</p>
                         </div>
                         <div class="flex">
                             <p class="mr-1 text-gray-800">Krs:</p>
-                            <p class="text-red-400 transition-colors duration-300 hover:text-red-800">0000222555</p>
+                            <p class="text-red-400 transition-colors duration-300 hover:text-red-800">0000266422</p>
                         </div>
                     </div>
                 </div>
