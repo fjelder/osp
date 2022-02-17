@@ -22,7 +22,7 @@
                 </div>
             </h2>
             <p class="max-w-xs text-base text-gray-700 md:text-lg">
-                Zarząd wybrany głosami członków OSP na kadencję 2021/2022r.
+                Zarząd wybrany głosami członków OSP na kadencję 2021/2026r.
             </p>
         </div>
 
