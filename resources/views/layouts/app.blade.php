@@ -52,11 +52,11 @@
             @if(config('set.visibleSection.stations'))
             <li><a href="{{route('home')}}/#stations" class="links">Remiza</a></li>
             @endif
-            @if(config('set.visibleSection.gallery'))
-            <li><a href="{{route('home')}}/#gallery" class="links">Galeria</a></li>
-            @endif
             @if(config('set.visibleSection.teams'))
             <li><a href="{{route('home')}}/#teams" class="links">Zarząd OSP</a></li>
+            @endif
+            @if(config('set.visibleSection.gallery'))
+            <li><a href="{{route('home')}}/#gallery" class="links">Galeria</a></li>
             @endif
         </ul>
         <div class="cursor-pointer lg:hidden" @click="openMobile = true">
@@ -88,11 +88,11 @@
                 @if(config('set.visibleSection.stations'))
                 <li><a href="{{route('home')}}/#stations" class="m-links" @click="openMobile = false">Remiza</a></li>
                 @endif
-                @if(config('set.visibleSection.gallery'))
-                <li><a href="{{route('home')}}/#gallery" class="m-links" @click="openMobile = false">Galeria</a></li>
-                @endif
                 @if(config('set.visibleSection.teams'))
                 <li><a href="{{route('home')}}/#teams" class="m-links" @click="openMobile = false">Zarząd OSP</a></li>
+                @endif
+                @if(config('set.visibleSection.gallery'))
+                <li><a href="{{route('home')}}/#gallery" class="m-links" @click="openMobile = false">Galeria</a></li>
                 @endif
             </ul>
         </div>
