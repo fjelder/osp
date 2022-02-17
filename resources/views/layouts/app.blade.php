@@ -101,6 +101,7 @@
     {{$slot}}
 
     <x-section.footer />
+    test payload
 
     @stack('modals')
 
