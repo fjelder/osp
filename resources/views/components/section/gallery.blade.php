@@ -29,7 +29,7 @@
             <a href="/" aria-label="View Item">
                 <div
                     class="relative overflow-hidden transition duration-200 transform rounded shadow-lg hover:-translate-y-2 hover:shadow-2xl">
-                    <img class="object-cover w-full h-56 md:h-64 xl:h-80" src="{{Storage::url('img/img1.jpg')}}"
+                    <img class="object-cover w-full h-56 md:h-64 xl:h-80" src="{{Storage::url('img/img1_50.jpg')}}"
                         alt="" />
                     <div class="absolute inset-x-0 bottom-0 px-6 py-4 bg-black bg-opacity-75 ">
                         <p class="text-sm font-medium tracking-wide text-white">
@@ -41,7 +41,7 @@
             <a href="/" aria-label="View Item">
                 <div
                     class="relative overflow-hidden transition duration-200 transform rounded shadow-lg hover:-translate-y-2 hover:shadow-2xl">
-                    <img class="object-cover w-full h-56 md:h-64 xl:h-80" src="{{Storage::url('img/img2.jpg')}}"
+                    <img class="object-cover w-full h-56 md:h-64 xl:h-80" src="{{Storage::url('img/img2_50.jpg')}}"
                         alt="" />
                     <div class="absolute inset-x-0 bottom-0 px-6 py-4 bg-black bg-opacity-75 ">
                         <p class="text-sm font-medium tracking-wide text-white">
@@ -53,7 +53,7 @@
             <a href="/" aria-label="View Item">
                 <div
                     class="relative overflow-hidden transition duration-200 transform rounded shadow-lg hover:-translate-y-2 hover:shadow-2xl">
-                    <img class="object-cover w-full h-56 md:h-64 xl:h-80" src="{{Storage::url('img/img3.jpg')}}"
+                    <img class="object-cover w-full h-56 md:h-64 xl:h-80" src="{{Storage::url('img/img3_50.jpg')}}"
                         alt="" />
                     <div class="absolute inset-x-0 bottom-0 px-6 py-4 bg-black bg-opacity-75 ">
                         <p class="text-sm font-medium tracking-wide text-white">
@@ -65,7 +65,7 @@
             <a href="/" aria-label="View Item">
                 <div
                     class="relative overflow-hidden transition duration-200 transform rounded shadow-lg hover:-translate-y-2 hover:shadow-2xl">
-                    <img class="object-cover w-full h-56 md:h-64 xl:h-80" src="{{Storage::url('img/img5.jpg')}}"
+                    <img class="object-cover w-full h-56 md:h-64 xl:h-80" src="{{Storage::url('img/img5_50.jpg')}}"
                         alt="" />
                     <div class="absolute inset-x-0 bottom-0 px-6 py-4 bg-black bg-opacity-75 ">
                         <p class="text-sm font-medium tracking-wide text-white">
