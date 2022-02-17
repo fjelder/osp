@@ -23,7 +23,7 @@
                 </p>
                 <div class="flex">
                     <p class="mr-1 text-gray-800">Telefon:</p>
-                    <a href="tel:850-123-5021" aria-label="" title=""
+                    <a href="tel:+48 698 542 156" aria-label="" title=""
                         class="text-red-400 transition-colors duration-300 hover:text-red-800">+48 698 542 156</a>
                 </div>
                 <div class="flex">
