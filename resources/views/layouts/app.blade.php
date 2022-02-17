@@ -35,6 +35,7 @@
         }
     </style>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@1.16.2/dist/themes.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body class="font-sans antialiased" x-data="{openMobile: false}" :class="openMobile ? 'overflow-y-hidden' : ''">
@@ -106,6 +107,8 @@
     @stack('modals')
 
     @livewireScripts
+
+
 
 
 
