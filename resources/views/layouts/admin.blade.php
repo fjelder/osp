@@ -28,8 +28,8 @@
 </head>
 
 <body class="admin">
-    <div class="flex flex-col h-screen">
-        <header class="w-full h-16 border-b">
+    <div class="flex flex-col min-h-screen">
+        <header class="block w-full h-16 mb-8 border-b">
             <div class="flex items-center justify-between h-full px-4 mx-auto max-w-7xl">
                 <div>
                     <p class="text-xl font-semibold text-zinc-500">
