@@ -13,7 +13,7 @@ module.exports = {
     theme: {
         extend: {
             fontFamily: {
-                sans: ["Poppins", ...defaultTheme.fontFamily.sans],
+                sans: ["Poppins", "Inter var", ...defaultTheme.fontFamily.sans],
             },
             minHeight: {
                 20: "5rem",

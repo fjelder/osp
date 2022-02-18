@@ -1,7 +1,7 @@
 <x-admin-layout>
 
 
-    <div class="my-10 space-y-3">
+    <div class="hidden my-10 space-y-3">
         <h2>Zarząd OSP</h2>21php
         @foreach(DB::select('select * from management') as $person)
         <div class="flex items-center justify-start space-x-3">
