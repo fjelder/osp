@@ -16,3 +16,6 @@ body.admin ul li.active {
 body.admin input[type="text"] {
     @apply block w-full border-0 border-b focus:ring-0 focus:outline-none focus:border-b-2 focus:border-blue-400;
 }
+body.admin label {
+    @apply text-zinc-400;
+}

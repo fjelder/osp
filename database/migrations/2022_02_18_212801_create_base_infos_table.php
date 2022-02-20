@@ -16,15 +16,15 @@ class CreateBaseInfosTable extends Migration
         Schema::create('base_infos', function (Blueprint $table) {
             $table->id();
             $table->string('name');
-            $table->string('nip', 20);
+            $table->string('nip', 10);
             $table->string('regon', 20);
             $table->string('krs', 20);
             $table->string('number', 20);
             $table->string('email', 100);
             $table->string('address', 100);
             $table->text('linkMaps');
-            $table->text('linkFacebook');
-            $table->text('linkYoutube');
+            $table->text('linkFacebook')->nullable();
+            $table->text('linkYoutube')->nullable();
             $table->timestamps();
         });
     }
