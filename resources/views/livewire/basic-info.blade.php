@@ -18,30 +18,15 @@
             </div>
 
             <div class="mb-2">
-                <label for="nip">Regon</label>
+                <label for="regon">Regon</label>
                 <input type="text" wire:model="info.regon" />
+                @error('info.regon') <span class="error">{{ $message }}</span> @enderror
             </div>
 
             <div class="mb-2">
                 <label for="nip">KRS</label>
                 <input type="text" wire:model="info.krs" />
-            </div>
-
-        </div>
-
-        <div class="p-5 text-sm text-zinc-700">
-
-            <h2 class="mb-6 text-base font-semibold text-zinc-700">
-                <span class="border-b-2 border-blue-300">Media społecznościowe</span>
-            </h2>
-            <div class="">
-                <label for="nip" class="text-zinc-400">Facebook</label>
-                <input type="text" value="https://www.facebook.com" class="focus:outline-none" />
-            </div>
-
-            <div class="">
-                <label for="nip" class="text-zinc-400">Youtube</label>
-                <input type="text" value="https://www.youtube.com" />
+                @error('info.krs') <span class="error">{{ $message }}</span> @enderror
             </div>
 
         </div>
@@ -71,9 +56,26 @@
                 <input type="text" value="https://goo.gl/maps/WXKLSCLZqF3Gmqdd7" />
             </div>
 
+        </div>
 
+        <div class="p-5 text-sm text-zinc-700">
+
+            <h2 class="mb-6 text-base font-semibold text-zinc-700">
+                <span class="border-b-2 border-blue-300">Media społecznościowe</span>
+            </h2>
+            <div class="mb-2">
+                <label for="nip" class="text-zinc-400">Facebook</label>
+                <input type="text" wire:model="info.linkFacebook" />
+            </div>
+
+            <div class="mb-2">
+                <label for="nip" class="text-zinc-400">Youtube</label>
+                <input type="text" value="https://www.youtube.com" />
+            </div>
 
         </div>
+
+
     </div>
     <button type="submit"
         class="px-2 py-2 mx-5 mt-4 text-sm tracking-wide transition-colors bg-green-500 border rounded-md shadow-md text-zinc-100 hover:bg-green-600">

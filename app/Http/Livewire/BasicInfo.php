@@ -12,8 +12,8 @@ class BasicInfo extends Component
 
         'info.name' => 'required',
         'info.nip' => 'required|numeric|size:10',
-        'info.name' => 'required',
-        'info.name' => 'required',
+        'info.regon' => 'required',
+        'info.*' => '',
         'info.name' => 'required',
 
 

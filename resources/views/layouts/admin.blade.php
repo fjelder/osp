@@ -70,7 +70,7 @@
             </div>
         </header>
 
-        <div class="flex flex-1 w-full px-4 py-4 mx-auto space-x-4 max-w-7xl">
+        <div class="flex flex-1 w-full px-4 py-4 mx-auto lg:space-x-4 max-w-7xl">
             <div class="hidden w-64 space-y-10 text-sm text-zinc-700 lg:block">
                 <!-- #1 -->
                 <div class="space-y-4">
