@@ -8,14 +8,18 @@ body.admin ul li a {
     @apply block w-full;
 }
 body.admin ul li:hover {
-    @apply bg-blue-50;
+    @apply bg-indigo-50;
 }
 body.admin ul li.active {
-    @apply font-semibold tracking-wide bg-blue-200;
+    @apply font-semibold tracking-wide bg-indigo-200;
 }
-body.admin input[type="text"] {
-    @apply block w-full border-0 border-b focus:ring-0 focus:outline-none focus:border-b-2 focus:border-blue-400;
+body.admin input[type="text"],
+body.admin input[type="email"] {
+    @apply block w-full border-0 border-b focus:ring-0 focus:outline-none focus:border-b-2 focus:border-indigo-400 bg-slate-50;
 }
 body.admin label {
     @apply text-zinc-400;
+}
+body.admin .cardsy {
+    @apply border rounded-md bg-slate-50 border-zinc-100;
 }

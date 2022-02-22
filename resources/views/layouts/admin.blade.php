@@ -34,12 +34,12 @@
                 <div>
                     <p class="text-xl font-semibold text-zinc-500">
                         <a href="/admin">OSP Robakowo<span class="text-3xl text-red-500">.</span></a> <span
-                            class="text-base text-blue-300">#administracja</span>
+                            class="text-base text-indigo-400">#administracja</span>
                     </p>
                 </div>
 
-                <div class="space-x-3 text-zinc-400">
-                    <button class="hover:text-blue-400">
+                <div class="items-center hidden space-x-3 lg:flex text-zinc-400">
+                    <a href="{{ route('home') }}" target="_blank" class="hover:text-indigo-400">
                         <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" viewBox="0 0 24 24" fill="none"
                             stroke="currentColor" stroke-width="2" stroke-linecap="round" width="1em" height="1em"
                             stroke-linejoin="round">
@@ -49,15 +49,15 @@
                                 d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z">
                             </path>
                         </svg>
-                    </button>
-                    <button class="hover:text-blue-400">
+                    </a>
+                    <a href="{{ route('profile.show') }}" class="hover:text-indigo-400">
                         <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" viewBox="0 0 24 24" fill="none"
                             stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                             class="text-4xl text-indigo-300 sm:text-5xl">
                             <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
                             <circle cx="12" cy="7" r="4"></circle>
                         </svg>
-                    </button>
+                    </a>
 
                     <button class="hover:text-red-300">
                         <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" viewBox="0 0 24 24" fill="none"
@@ -101,8 +101,8 @@
                 </div>
             </div>
             <div class="w-full">
-                <div class="flex w-full p-4 mb-12 space-x-5 border rounded-md bg-slate-50 border-zinc-100">
-                    <div class="text-blue-300">
+                <div class="flex w-full p-4 mb-12 space-x-5 cardsy">
+                    <div class="text-indigo-300">
                         <svg xmlns="http://www.w3.org/2000/svg" class="w-16 h-16" fill="none" viewBox="0 0 24 24"
                             stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -115,10 +115,14 @@
                                 class="tracking-wider">osprobakowo.pl</strong></p>
                     </div>
                 </div>
+                <x-jet-banner />
 
                 @livewire('basic-info')
-
+                <footer class="p-4 mt-20 text-sm text-center border-t-2 text-zinc-300">
+                    OSP Robakowo - {{now('Europe/Warsaw')->format('D - d M Y\r. H:i:s')}}
+                </footer>
             </div>
+
         </div>
     </div>
 

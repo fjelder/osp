@@ -11,12 +11,11 @@ class BasicInfo extends Component
     protected $rules = [
 
         'info.name' => 'required',
-        'info.nip' => 'required|numeric|size:10',
-        'info.regon' => 'required',
+        'info.nip' => 'required|numeric',
+        'info.regon' => 'required|numeric',
+        'info.krs' => 'required|numeric',
         'info.*' => '',
-        'info.name' => 'required',
-
-
+        'info.linkYoutube' => '',
     ];
 
     public function mount()
@@ -27,6 +26,22 @@ class BasicInfo extends Component
     public function updated($propertyName)
     {
         $this->validateOnly($propertyName);
+    }
+
+    public function update(){
+        $this->validate();
+        if($this->info->linkYoutube == ' ')
+        {
+            $this->info->linkYoutube = null;
+        }
+        if($this->info->linkFacebook == ' ')
+        {
+            $this->info->linkFacebook = null;
+        }
+        $this->info->save();
+        session()->flash('flash.banner', 'Dane zostały zaaktualizowane!');
+        session()->flash('flash.bannerStyle', 'success');
+        return $this->redirect('/admin');
     }
 
     public function render()
