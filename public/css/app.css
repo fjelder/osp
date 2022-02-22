@@ -40621,6 +40621,18 @@ Ensure the default browser behavior of the `hidden` attribute.
 }.hover\:bg-gray-50:hover{
   --tw-bg-opacity: 1;
   background-color: rgb(250 250 250 / var(--tw-bg-opacity));
+}.hover\:bg-gray-300:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgb(224 224 224 / var(--tw-bg-opacity));
+}.hover\:bg-indigo-100:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgb(197 202 233 / var(--tw-bg-opacity));
+}.hover\:bg-gray-200:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgb(238 238 238 / var(--tw-bg-opacity));
+}.hover\:bg-indigo-700:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgb(48 63 159 / var(--tw-bg-opacity));
 }.hover\:bg-red-accent-700:hover{
   --tw-bg-opacity: 1;
   background-color: rgb(213 0 0 / var(--tw-bg-opacity));
@@ -40630,9 +40642,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 }.hover\:bg-red-400:hover{
   --tw-bg-opacity: 1;
   background-color: rgb(239 83 80 / var(--tw-bg-opacity));
-}.hover\:bg-indigo-700:hover{
-  --tw-bg-opacity: 1;
-  background-color: rgb(48 63 159 / var(--tw-bg-opacity));
 }.hover\:text-gray-500:hover{
   --tw-text-opacity: 1;
   color: rgb(158 158 158 / var(--tw-text-opacity));
@@ -40657,6 +40666,12 @@ Ensure the default browser behavior of the `hidden` attribute.
 }.hover\:text-red-300:hover{
   --tw-text-opacity: 1;
   color: rgb(229 115 115 / var(--tw-text-opacity));
+}.hover\:text-indigo-700:hover{
+  --tw-text-opacity: 1;
+  color: rgb(48 63 159 / var(--tw-text-opacity));
+}.hover\:text-white:hover{
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }.hover\:text-red-accent-400:hover{
   --tw-text-opacity: 1;
   color: rgb(255 23 68 / var(--tw-text-opacity));
@@ -40714,6 +40729,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 }.focus\:bg-gray-50:focus{
   --tw-bg-opacity: 1;
   background-color: rgb(250 250 250 / var(--tw-bg-opacity));
+}.focus\:bg-indigo-50:focus{
+  --tw-bg-opacity: 1;
+  background-color: rgb(232 234 246 / var(--tw-bg-opacity));
 }.focus\:text-gray-700:focus{
   --tw-text-opacity: 1;
   color: rgb(97 97 97 / var(--tw-text-opacity));
@@ -40726,6 +40744,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 }.focus\:text-gray-500:focus{
   --tw-text-opacity: 1;
   color: rgb(158 158 158 / var(--tw-text-opacity));
+}.focus\:text-indigo-600:focus{
+  --tw-text-opacity: 1;
+  color: rgb(57 73 171 / var(--tw-text-opacity));
+}.focus\:opacity-100:focus{
+  opacity: 1;
 }.focus\:shadow-outline:focus{
   --tw-shadow: 0 0 0 3px rgba(101, 31, 255, 0.4);
   --tw-shadow-colored: 0 0 0 3px var(--tw-shadow-color);
@@ -40736,6 +40759,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 }.focus\:ring:focus{
   --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
   --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(3px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+  box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+}.focus\:ring-2:focus{
+  --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+  --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);
   box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
 }.focus\:ring-gray-300:focus{
   --tw-ring-opacity: 1;
@@ -40749,8 +40776,19 @@ Ensure the default browser behavior of the `hidden` attribute.
 }.focus\:ring-blue-200:focus{
   --tw-ring-opacity: 1;
   --tw-ring-color: rgb(144 202 249 / var(--tw-ring-opacity));
+}.focus\:ring-indigo-800:focus{
+  --tw-ring-opacity: 1;
+  --tw-ring-color: rgb(40 53 147 / var(--tw-ring-opacity));
+}.focus\:ring-indigo-600:focus{
+  --tw-ring-opacity: 1;
+  --tw-ring-color: rgb(57 73 171 / var(--tw-ring-opacity));
+}.focus\:ring-red-300:focus{
+  --tw-ring-opacity: 1;
+  --tw-ring-color: rgb(229 115 115 / var(--tw-ring-opacity));
 }.focus\:ring-opacity-50:focus{
   --tw-ring-opacity: 0.5;
+}.focus\:ring-offset-2:focus{
+  --tw-ring-offset-width: 2px;
 }.active\:bg-gray-100:active{
   --tw-bg-opacity: 1;
   background-color: rgb(245 245 245 / var(--tw-bg-opacity));
@@ -40821,6 +40859,8 @@ Ensure the default browser behavior of the `hidden` attribute.
     margin-left: 2.5rem;
   }.sm\:ml-6{
     margin-left: 1.5rem;
+  }.sm\:ml-8{
+    margin-left: 2rem;
   }.sm\:mb-4{
     margin-bottom: 1rem;
   }.sm\:ml-0{
@@ -40934,6 +40974,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   }.sm\:text-5xl{
     font-size: 3rem;
     line-height: 1;
+  }.sm\:text-lg{
+    font-size: 1.125rem;
+    line-height: 1.75rem;
   }.sm\:text-4xl{
     font-size: 2.25rem;
     line-height: 2.5rem;
@@ -40957,8 +41000,6 @@ Ensure the default browser behavior of the `hidden` attribute.
     margin-bottom: 3rem;
   }.md\:block{
     display: block;
-  }.md\:flex{
-    display: flex;
   }.md\:grid{
     display: grid;
   }.md\:h-96{
@@ -40981,6 +41022,15 @@ Ensure the default browser behavior of the `hidden` attribute.
     border-top-width: 0px;
   }.md\:border-l{
     border-left-width: 1px;
+  }.md\:px-10{
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }.md\:py-7{
+    padding-top: 1.75rem;
+    padding-bottom: 1.75rem;
+  }.md\:px-8{
+    padding-left: 2rem;
+    padding-right: 2rem;
   }.md\:px-0{
     padding-left: 0px;
     padding-right: 0px;
@@ -40989,6 +41039,9 @@ Ensure the default browser behavior of the `hidden` attribute.
     padding-right: 6rem;
   }.md\:pr-8{
     padding-right: 2rem;
+  }.md\:text-xl{
+    font-size: 1.25rem;
+    line-height: 1.75rem;
   }.md\:text-lg{
     font-size: 1.125rem;
     line-height: 1.75rem;
@@ -41083,6 +41136,9 @@ Ensure the default browser behavior of the `hidden` attribute.
     padding-bottom: 16rem;
   }.lg\:pl-8{
     padding-left: 2rem;
+  }.lg\:text-2xl{
+    font-size: 1.5rem;
+    line-height: 2rem;
   }.lg\:text-sm{
     font-size: 0.875rem;
     line-height: 1.25rem;
@@ -41106,6 +41162,9 @@ Ensure the default browser behavior of the `hidden` attribute.
     width: 10rem;
   }.xl\:w-80{
     width: 20rem;
+  }.xl\:px-10{
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
   }.xl\:px-0{
     padding-left: 0px;
     padding-right: 0px;

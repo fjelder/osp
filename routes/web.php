@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\FaqController;
+use App\Http\Controllers\NewsController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -30,9 +31,16 @@ Route::get('/statut', function () {
 //     return view('dashboard');
 // })->name('dashboard');
 
-Route::get('/admin', function (){
-    return view('pages.admin');
-})->name('admin')->middleware(['auth:sanctum', 'verified']);
 Route::resources([
     'faq' => FaqController::class,
 ]);
+
+
+Route::prefix('admin')->middleware(['auth:sanctum', 'verified'])->group(function () {
+    Route::get('/', function (){
+        return view('admin.dashboard');
+    })->name('admin');
+    Route::resources([
+        'news' => NewsController::class,
+    ]);
+});
