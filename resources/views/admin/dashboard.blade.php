@@ -1,5 +1,5 @@
 <x-admin-layout>
-    <div class="flex w-full p-4 mb-12 space-x-5 cardsy">
+    <div class="flex p-4 mb-12 space-x-5 cardsy">
         <div class="text-indigo-300">
             <svg xmlns="http://www.w3.org/2000/svg" class="w-16 h-16" fill="none" viewBox="0 0 24 24"
                 stroke="currentColor">
@@ -13,6 +13,7 @@
                     class="tracking-wider">osprobakowo.pl</strong></p>
         </div>
     </div>
+    <x-jet-banner />
     @livewire('basic-info')
 
 </x-admin-layout>

@@ -38,7 +38,8 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body class="font-sans antialiased" x-data="{openMobile: false}" :class="openMobile ? 'overflow-y-hidden' : ''">
+<body class="font-sans antialiased text-gray-800 bg-white" x-data="{openMobile: false}"
+    :class="openMobile ? 'overflow-y-hidden' : ''">
     <header
         class=" flex flex-row items-center justify-between w-full px-8 py-4 transition-all duration-300 ease-in-out lg:py-12 {{ Route::is('home') ? 'fixed top-0 left-0 z-10 mb-12' : '' }}">
         <h2 class="text-xl font-bold text-gray-800 lg:text-3xl">OSP Robakowo<span class="text-red-700">.</span></h2>
