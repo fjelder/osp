@@ -14,7 +14,9 @@ class BasicInfo extends Component
         'info.nip' => 'required|numeric',
         'info.regon' => 'required|numeric',
         'info.krs' => 'required|numeric',
-        'info.*' => '',
+        'info.email' => 'required|email',
+        'info.number' => 'required|numeric',
+        'info.linkFacebook' => '',
         'info.linkYoutube' => '',
     ];
 

@@ -1,87 +1,40 @@
 <div class="mb-10">
-    <div class="shadow-md cardsy">
+    <div class="p-5">
 
-
+        <h2 class="mb-6 text-base font-semibold text-slate-400">
+            <span class="capitalize border-b-2 border-indigo-300">Dane podstawowe</span>
+        </h2>
         <div class="grid grid-cols-1 rounded-md md:grid-cols-2 ">
-            <div class="p-5 m-3 text-sm text-zinc-700">
+            <div class="m-3">
 
-                <h2 class="mb-6 text-base font-semibold text-zinc-700">
-                    <span class="border-b-2 border-indigo-300">Dane
-                        organizacji</span>
-                </h2>
-                <div class="mb-2">
-                    <label for="nip">Nazwa organizacji</label>
-                    <input type="text" wire:model="info.name" disabled="disabled"
-                        class="font-semibold capitalize text-zinc-400" />
-                </div>
 
-                <div class="mb-2">
-                    <label for="nip">NIP</label>
-                    <input type="text" wire:model="info.nip" />
-                    @error('info.nip') <span class="error">{{ $message }}</span> @enderror
-                </div>
+                <x-ui.input model="info.name" label="Dane organizacji" disabled=true />
+                <x-ui.input model="info.nip" label="NIP" />
+                <x-ui.input model="info.regon" label="Regon" />
+                <x-ui.input model="info.krs" label="KRS" />
 
-                <div class="mb-2">
-                    <label for="regon">Regon</label>
-                    <input type="text" wire:model="info.regon" />
-                    @error('info.regon') <span class="error">{{ $message }}</span> @enderror
-                </div>
-
-                <div class="mb-2">
-                    <label for="krs">KRS</label>
-                    <input type="text" wire:model="info.krs" />
-                    @error('info.krs') <span class="error">{{ $message }}</span> @enderror
-                </div>
 
             </div>
 
-            <div class="p-5 m-3 text-sm text-zinc-700">
+            <div class="m-3">
 
-                <h2 class="mb-6 text-base font-semibold text-zinc-700">
-                    <span class="border-b-2 border-indigo-300">Dane kontaktowe</span>
-                </h2>
-                <div class="mb-2">
-                    <label for="email">E-mail</label>
-                    <input type="email" wire:model="info.email" />
-                </div>
-
-                <div class="mb-2">
-                    <label for="phone">Numer telefonu</label>
-                    <input type="text" wire:model="info.number" />
-                </div>
-
-                <div class="mb-2">
-                    <label for="address">Adres</label>
-                    <input type="text" wire:model="info.address" />
-                </div>
-
-                <div class="mb-2">
-                    <label for="linkMaps">Link do mapy Googla</label>
-                    <input type="text" wire:model="info.linkMaps" />
-                </div>
+                <x-ui.input model="info.email" label="Email" />
+                <x-ui.input model="info.number" label="Numer telefonu" />
+                <x-ui.input model="info.address" label="Adres" />
+                <x-ui.input model="info.linkMaps" label="Link do mapy Googla" />
 
             </div>
 
-            <div class="p-5 m-3 text-sm text-zinc-700">
+            <div class="m-3">
 
-                <h2 class="mb-6 text-base font-semibold text-zinc-700">
-                    <span class="border-b-2 border-indigo-300">Media społecznościowe</span>
-                </h2>
-                <div class="mb-2">
-                    <label for="linkFacebook">Facebook</label>
-                    <input type="text" wire:model="info.linkFacebook" />
-                </div>
-
-                <div class="mb-2">
-                    <label for="linkYoutube">Youtube</label>
-                    <input type="text" wire:model="info.linkYoutube" />
-                </div>
+                <x-ui.input model="info.linkFacebook" label="Facebook" />
+                <x-ui.input model="info.linkYoutube" label="Youtube" />
 
             </div>
 
 
         </div>
-        <div class="flex justify-end border-t bg-slate-100">
+        <div class="flex justify-end border rounded-lg bg-slate-100 dark:bg-slate-800 dark:border-slate-300/10">
             <button type="submit"
                 class="flex items-center px-2 py-2 mx-5 my-4 text-sm tracking-wide text-white transition-colors bg-indigo-600 border border-indigo-600 rounded-sm hover:bg-indigo-700"
                 wire:click="update">
