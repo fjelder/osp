@@ -34,10 +34,10 @@
 
 
         </div>
-        <div class="flex justify-end border rounded-lg bg-slate-100 dark:bg-slate-800 dark:border-slate-300/10">
+        <div class="flex justify-start border rounded-lg bg-slate-100 dark:bg-slate-800 dark:border-slate-300/10">
             <button type="submit"
-                class="flex items-center px-2 py-2 mx-5 my-4 text-sm tracking-wide text-white transition-colors bg-indigo-600 border border-indigo-600 rounded-sm hover:bg-indigo-700"
-                wire:click="update">
+                class="flex items-center px-2 py-2 mx-5 my-4 text-sm tracking-wide text-white transition-colors bg-indigo-600 border border-indigo-600 rounded-sm cursor-not-allowed hover:bg-indigo-700"
+                wire:click="update" disabled="disabled">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="w-5 h-5 mr-2"
                     viewBox="0 0 16 16">
                     <path

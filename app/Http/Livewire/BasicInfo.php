@@ -16,6 +16,8 @@ class BasicInfo extends Component
         'info.krs' => 'required|numeric',
         'info.email' => 'required|email',
         'info.number' => 'required|numeric',
+        'info.address' => '',
+        'info.linkMaps' => '',
         'info.linkFacebook' => '',
         'info.linkYoutube' => '',
     ];
