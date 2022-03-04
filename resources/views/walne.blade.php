@@ -27,7 +27,7 @@
                         Na prośbę Zarządu Miejsko - Gminnego Ochotniczych Straży Pożarnych w Kórniku oraz w imieniu
                         Ochotniczej Straży Pożarnej w Robakowie w dniu 5 marca o godzinie 16:00 odbędzie się Walne
                         Zebranie wszystkich członków OSP Robakowo. Zebranie będzie miało charakter zebrania
-                        sprawozdawczego z dotychczasowej pracy OSP. Porządek obrad zostanie przedstawiony przez
+                        sprawozdawczego z dotychczasowej pracy OSP. Porządek obrad zostanie przedstawiony przed
                         rozpoczęciem spotkania.</br> Obecność wszystkich członków jest obowiązkowa.
                     </p>
                 </div>

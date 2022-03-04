@@ -14,7 +14,7 @@
                     </a>
                 </div>
                 <p class="mb-4 text-base text-gray-700 md:text-lg">
-                    Z inicjatyw Zarządu Ochotniczej Straży Pożarnej wszyscy Strażacy Ochotnicy mają dostęp do cyklu
+                    Z inicjatywy Zarządu Ochotniczej Straży Pożarnej wszyscy Strażacy Ochotnicy mają dostęp do cyklu
                     szkoleń z podstawowej wiedzy na temat funcjonowania straży pożarnej, sposobów walki z ogniem jak
                     również omawiane są zagadnienia z zakresu udzielania pomocy w pozostałych akcjach ratowniczych, do
                     których w
