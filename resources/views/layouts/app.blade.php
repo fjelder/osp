@@ -38,10 +38,11 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body class="font-sans antialiased text-gray-800 bg-white" x-data="{openMobile: false}"
+<body class="flex flex-col min-h-screen font-sans antialiased bg-white text-slate-800" x-data="{openMobile: false}"
     :class="openMobile ? 'overflow-y-hidden' : ''">
     <header
-        class=" flex flex-row items-center justify-between w-full px-8 py-4 transition-all duration-300 ease-in-out lg:py-12 {{ Route::is('home') ? 'fixed top-0 left-0 z-10 mb-12' : '' }}">
+        class="border-b shadow flex flex-row items-center justify-between w-full px-8 py-4 transition-all duration-300 ease-in-out  {{ Route::is('home') ? 'fixed top-0 left-0 z-10 mb-12 lg:py-12 border-b-0 shadow-none' : '' }}">
+        <img src="{{Storage::url('img/logo.jpg')}}" alt="Logo" class="h-12 mr-4 lg:hidden">
         <h2 class="text-xl font-bold text-gray-800 lg:text-3xl">OSP Robakowo<span class="text-red-700">.</span></h2>
         <ul class="flex-row flex-wrap justify-end flex-grow hidden list-none lg:flex navigation">
             @if(config('set.visibleSection.home'))
@@ -100,7 +101,9 @@
     </div>
 
 
-    {{$slot}}
+    <div class="flex-1">
+        {{$slot}}
+    </div>
 
     <x-section.footer />
 
