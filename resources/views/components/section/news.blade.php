@@ -23,45 +23,44 @@
                 </div>
 
                 <div class="grid gap-8 row-gap-8 sm:grid-cols-2">
-                    <h2>Brak aktualności.</h2>
-                    <div class="hidden">
-                        <div>
-                            <div class="flex items-center justify-between">
-                                <h2 class="mb-2 font-semibold leading-5">
-                                    Festyn rodzinny
-                                </h2>
-                                <span class="text-xs font-medium text-gray-500">05.12.2021r.</span>
-                            </div>
-                            <p class="text-sm text-gray-900 lg:min-h-20">
-                                Dingy I'm tellin' you rhubaahb Bangah Jo-Jeezly got in a
-                                gaum Powrtland stove up dooryahd
-                            </p>
-                            <a href="/" aria-label=""
-                                class="inline-flex items-center mt-2 text-base font-semibold transition-colors duration-200 text-red-accent-400 hover:text-red-accent-700">
-                                Zobacz więcej
-                                <x-heroicon-o-chevron-right class="h-4 ml-2" />
-                            </a>
-                        </div>
 
-                        <div>
-                            <div class="flex items-center justify-between">
-                                <h2 class="mb-2 font-semibold leading-5">
-                                    Rekrutacja
-                                </h2>
-                                <span class="text-xs font-medium text-gray-500">30.11.2021r.</span>
-                            </div>
-
-                            <p class="text-sm text-gray-900 lg:min-h-20">
-                                A slice of heaven. O for awesome, this chocka full cuzzie is
-                                as rip-off as a cracker.
-                            </p>
-                            <a href="/" aria-label=""
-                                class="inline-flex items-center mt-2 text-base font-semibold transition-colors duration-200 text-red-accent-400 hover:text-red-accent-700">
-                                Zobacz więcej
-                                <x-heroicon-o-chevron-right class="h-4 ml-2" />
-                            </a>
+                    <div>
+                        <div class="flex items-center justify-between">
+                            <h2 class="mb-2 font-semibold leading-5">
+                                Zebranie Walne - sprawozdawcze
+                            </h2>
+                            <span class="text-xs font-medium text-gray-500">17.02.2022r.</span>
                         </div>
+                        <p class="text-sm text-gray-900 lg:min-h-20">
+                            Uwaga! Do wszytkich członków. W dniu 05 marca 2022r. w tymczasowej siedzibie Ochotniczej
+                            Straży Pożarnej w Robakowie odbędzie się Zebranie Walne mające charater sprawozdawczy.
+                        </p>
+                        <a href="/walne-zebranie" aria-label=""
+                            class="inline-flex items-center mt-2 text-base font-semibold transition-colors duration-200 text-red-accent-400 hover:text-red-accent-700">
+                            Zobacz więcej
+                            <x-heroicon-o-chevron-right class="h-4 ml-2" />
+                        </a>
                     </div>
+
+                    <div>
+                        <div class="flex items-center justify-between">
+                            <h2 class="mb-2 font-semibold leading-5">
+                                Szkolenia Strażaków
+                            </h2>
+                            <span class="text-xs font-medium text-gray-500">05.02.2022r.</span>
+                        </div>
+
+                        <p class="text-sm text-gray-900 lg:min-h-20">
+                            Nasza Jednostka rozpoczeła szkolenie strażaków ochotników. Szkolenia mają formę teoretczną,
+                            nie brakuje jednak również ćwiczeń praktycznych.
+                        </p>
+                        <a href="/szkolenia" aria-label=""
+                            class="inline-flex items-center mt-2 text-base font-semibold transition-colors duration-200 text-red-accent-400 hover:text-red-accent-700">
+                            Zobacz więcej
+                            <x-heroicon-o-chevron-right class="h-4 ml-2" />
+                        </a>
+                    </div>
+
                 </div>
             </div>
             <div>

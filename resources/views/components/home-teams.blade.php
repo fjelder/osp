@@ -12,7 +12,8 @@
     </div>
     <div class="flex flex-col sm:text-center">
         <p class="text-lg font-bold">{{$person->name}}</p>
-        <p class="mb-5 text-xs text-gray-800">{{$person->position}}</p>
+        <p class="text-xs text-gray-800 ">{{$person->position}}</p>
+        <p class="mb-5 text-xs text-gray-800">{{$person->phone}}</p>
         <div class="flex items-center space-x-3 sm:justify-center">
 
             @isset($person->socialFacebook)

@@ -18,6 +18,14 @@ Route::get('/', function () {
     return view('home');
 })->name('home');
 
+Route::get('/walne-zebranie', function () {
+    return view('walne');
+})->name('walneZebranie');
+
+Route::get('/szkolenia', function () {
+    return view('szkolenia');
+})->name('szkolenia');
+
 Route::get('/news', function () {
     return view('news');
 })->name('news');
